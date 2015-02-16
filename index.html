@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="BasicHttpAuthExample">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Basic HTTP Authentication Example</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+  </head>
+
+  <body>
+  
+    <div class="jumbotron">
+      <div class="container">
+        <div class="col-xs-offset-2 col-xs-8">
+          <div ng-view></div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="libraries/angular/js/angular.js"></script>
+    <script src="libraries/angular/js/angular-route.js"></script>
+    <script src="libraries/angular/js/angular-cookies.js"></script>
+    <script src="libraries/angular/js/angular-sanitize.js"></script>
+
+    <script src="libraries/jquery/js/jquery-2.1.1.js"></script>
+    <script src="libraries/angular/js/underscore.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.js"></script>
+     <script src="libraries/angular/js/ui-bootstrap.js"></script>
+       <script src="modules/authentication/supplant.js"></script>
+      <script src="modules/authentication/session.js"></script>  
+
+    <script src="app.js"></script>
+
+    <script src="modules/authentication/services.js"></script>
+    <script src="modules/authentication/controllers.js"></script>
+    <script src="modules/home/controllers.js"></script>
+
+
+    <script src="modules/quiz/QuizBuilder.js"></script>
+    <script src="modules/quiz/ScoreBuilder.js"></script>
+    <script src="modules/quiz/quizDelegate.js"></script>
+    
+    <script src="modules/quiz/TestController.js"></script>
+    <script src="modules/quiz/ScoreController.js"></script>
+
+
+  </body>
+
+</html>
